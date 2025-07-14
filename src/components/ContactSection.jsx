@@ -3,7 +3,7 @@ import { Phone, Mail, MapPin } from "lucide-react";
 
 export default function ContactSection() {
   return (
-    <section className="bg-[#0b0b0b] text-white py-24 px-6">
+    <section className=" text-white py-24 px-6">
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-start">
         {/* Left Info */}
         <motion.div

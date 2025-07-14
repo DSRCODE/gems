@@ -10,7 +10,7 @@ const stats = [
 
 export default function AboutSection() {
   return (
-    <section className="bg-[#0b0b0b] text-white py-24 px-6">
+    <section className=" text-white py-24 px-6">
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
         {/* About Content */}
         <motion.div

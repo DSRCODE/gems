@@ -10,7 +10,9 @@ export default function Header() {
   const navItems = [
     { path: "/", label: "Home" },
     { path: "/products", label: "Products" },
-    { path: "/portfolio", label: "Portfolio" },
+    // { path: "/portfolio", label: "Portfolio" },
+    { path: "/about", label: "About" },
+    { path: "/contact", label: "Contact" },
   ];
 
   const navLink = (path, label) => (
@@ -28,14 +30,19 @@ export default function Header() {
   );
 
   return (
-    <header className="bg-black/95 backdrop-blur-sm sticky top-0 z-50 shadow-sm">
+    <header className="bg-black backdrop-blur-sm sticky top-0 z-50 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
         {/* Logo */}
         <Link
           to="/"
-          className="text-xl md:text-2xl font-bold tracking-widest text-white hover:text-yellow-400 transition"
+          className="text-3xl md:text-4xl font-bold tracking-wide flex items-center font-cinzel space-x-2 group"
         >
-          Lunawat Gems
+          <span className="bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent group-hover:brightness-110 transition duration-300">
+            Lunawat
+          </span>
+          <span className="text-white group-hover:text-yellow-200 transition duration-300">
+            Gems
+          </span>
         </Link>
 
         {/* Desktop Navigation */}

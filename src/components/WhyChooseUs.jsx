@@ -3,7 +3,7 @@ import gemDisplay from "../assets/gem1.avif"; // Replace with a gem image in ass
 
 export default function WhyChooseUs() {
   return (
-    <section className="bg-[#0e0e0e] text-white py-20 px-4 md:px-10">
+    <section className=" text-white py-20 px-4 md:px-10">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12">
         {/* Image Section */}
         <motion.div

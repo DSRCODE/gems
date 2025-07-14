@@ -79,7 +79,7 @@ const renderStars = (rating) => (
 
 export default function Testimonials() {
   return (
-    <section className="py-20 px-6 bg-black text-white">
+    <section className="py-20 px-6  text-white">
       <div className="max-w-6xl mx-auto text-center">
         <motion.h2
           initial={{ opacity: 0, y: 30 }}
